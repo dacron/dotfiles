@@ -1,3 +1,8 @@
+" Colours
+syntax enable
+set background=dark
+colorscheme solarized
+
 " Disable arrow keys
 nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
