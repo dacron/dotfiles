@@ -10,3 +10,7 @@ fi
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
+
+if [ -f ~/.spack/share/spack/setup-env.sh ]; then
+  . ~/.spack/share/spack/setup-env.sh
+fi
