@@ -1,7 +1,10 @@
-" Colours
+execute pathogen#infect()
+
+" Colours/formatting
 syntax enable
 set background=dark
 colorscheme solarized
+filetype plugin indent on
 
 " Disable arrow keys
 nnoremap <Left> :echoe "Use h"<CR>
